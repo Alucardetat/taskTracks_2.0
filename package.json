@@ -1,0 +1,18 @@
+{
+  "name": "tasktracks_2.0",
+  "version": "1.0.0",
+  "private": true,
+  "description": "TaskTracks is a simple task management application that allows users to create, update, delete, and track their tasks. Designed with flexibility in mind, TaskTracks plans to supports both personal task management and team collaboration, with plans to expand functionality further.",
+  "main": "index.js",
+  "scripts": {
+    "start:frontend": "npm-start --prefix frontend",
+    "start:backend": "npm-start --prefix backend",
+    "start": "concurrently \"npm run start:frontend\" \"npm run start:backend\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^9.1.0"
+  }
+}
