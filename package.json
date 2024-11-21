@@ -5,9 +5,9 @@
   "description": "TaskTracks is a simple task management application that allows users to create, update, delete, and track their tasks. Designed with flexibility in mind, TaskTracks plans to supports both personal task management and team collaboration, with plans to expand functionality further.",
   "main": "index.js",
   "scripts": {
-    "start:frontend": "npm-start --prefix frontend",
-    "start:backend": "npm-start --prefix backend",
-    "start": "concurrently \"npm run start:frontend\" \"npm run start:backend\""
+    "start:frontend": "npm run dev --prefix frontend",
+    "start:backend": "npm run start --prefix backend",
+    "app": "concurrently \"npm run start:frontend\" \"npm run start:backend\""
   },
   "keywords": [],
   "author": "",

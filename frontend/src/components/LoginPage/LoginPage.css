@@ -1,0 +1,35 @@
+/* taskTracks_2.0/frontend/src/components/LoginPage/LoginPage.css */
+
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Full viewport height */
+}
+
+.login-box {
+  position: fixed; /* Fix it to the center of the viewport */
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); /* Center the box */
+  width: 400px; /* Adjust as needed */
+  padding: 2rem;
+  border: 1px solid #dfe6e9;
+  border-radius: 8px;
+  background-color: #ffffff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.login-box h2 {
+  margin-bottom: 1.5rem;
+  font-size: 1.8rem;
+}
+
+.login-box .login-btn {
+  padding: 0.8rem 1.5rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}

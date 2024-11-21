@@ -1,4 +1,3 @@
-
 # TaskTracks
 
 TaskTracks is a simple task management application that allows users to create, update, delete, and track their tasks. Designed with flexibility in mind, TaskTracks plans to supports both personal task management and team collaboration, with plans to expand functionality further.

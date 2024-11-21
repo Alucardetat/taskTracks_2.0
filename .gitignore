@@ -1,3 +1,5 @@
+# taskTracks_2.0/.gitignore
+
 # Node.js specific
 node_modules/
 backend/node_modules/

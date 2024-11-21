@@ -1,0 +1,151 @@
+/* taskTracks_2.0/frontend/src/components/Layout/Layout.css */
+/* Layout Container */
+.layout-container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh; /* Full viewport height */
+  }
+  
+  /* Header Section */
+  .layout-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #2d3436; /* Dark Gray */
+    color: white;
+    padding: 1rem;
+  }
+  
+  .layout-header h1 {
+    font-size: 1.5rem;
+  }
+  
+  .layout-header nav ul {
+    display: flex;
+    gap: 1rem;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .layout-header nav ul li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  /* Main Layout */
+  .layout-main {
+    display: flex;
+    flex: 1; /* Occupies remaining space below header */
+  }
+  
+  /* Sidebar Section */
+  .layout-sidebar {
+    background-color: #636e72; /* Medium Gray */
+    color: white;
+    width: 250px; /* Fixed Sidebar Width */
+    padding: 1rem;
+  }
+  
+  .layout-sidebar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .layout-sidebar ul li a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 0.5rem 0;
+  }
+  
+  .layout-sidebar ul li a:hover {
+    background-color: #b2bec3; /* Light Gray */
+    border-radius: 5px;
+  }
+  
+  /* Main Content Section */
+  .layout-content {
+    flex: 1;
+    padding: 2rem;
+    overflow-y: auto;
+  }
+
+  /* Header Branding */
+.header-brand {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.header-logo {
+  width: 40px; /* Adjust as needed */
+  height: 40px;
+}
+
+/* Navigation Links */
+.layout-header nav ul li a {
+  font-weight: bold;
+  text-transform: uppercase;
+  transition: color 0.3s ease;
+}
+
+.layout-header nav ul li a:hover {
+  color: #74b9ff; /* Light blue for hover */
+}
+
+/* Sidebar Links with Icons */
+.layout-sidebar ul li a {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.layout-sidebar ul li a:hover {
+  background-color: #b2bec3; /* Light Gray */
+  color: #2d3436; /* Dark Gray */
+}
+
+/* Adjust icon size */
+.layout-sidebar ul li a i {
+  font-size: 1.2rem;
+}
+
+/* Main Content Section */
+.layout-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #dfe6e9; /* Light Gray Background */
+  color: #2d3436; /* Dark Gray Text */
+  font-size: 1.2rem;
+  font-family: 'Arial', sans-serif;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Placeholder Content Styling */
+.placeholder-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%; /* Ensure it spans the full height of the main content */
+  font-size: 1.2rem;
+  color: #636e72; /* Neutral gray for placeholder text */
+  text-align: center;
+}
+
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .layout-sidebar {
+      display: none; /* Hide Sidebar on Small Screens */
+    }
+    .layout-content {
+      padding: 1rem;
+    }
+  }  
