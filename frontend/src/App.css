@@ -1,0 +1,11 @@
+/* taskTracks_2.0/frontend/src/App.css */
+
+/* Global Reset */
+body, html {
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
